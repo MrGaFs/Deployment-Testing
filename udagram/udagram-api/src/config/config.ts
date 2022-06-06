@@ -2,11 +2,13 @@
 // - AWS_ACCESS_KEY_ID
 // - AWS_SECRET_ACCESS_KEY
 // Are Also needed
-
+import dotenv from 'dotenv';
+dotenv.config();
 export const config = {
   username: `${process.env.POSTGRES_USERNAME}`,
   password: process.env.POSTGRES_PASSWORD,
   database: process.env.POSTGRES_DB,
+  dbPort: Number(process.env.POSTGRES_PORT),
   port: Number(process.env.PORT),
   host: process.env.POSTGRES_HOST,
   dialect: "postgres",
@@ -18,3 +20,5 @@ export const config = {
     secret: process.env.JWT_SECRET,
   },
 };
+
+console.error(config)
