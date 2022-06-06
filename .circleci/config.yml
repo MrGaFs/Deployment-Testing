@@ -45,9 +45,7 @@ jobs:
 workflows:
   udagram:
     jobs:
-      - build:
-          type: approval
+      - build
       - deploy:
           requires:
             - build
-          type: approval
