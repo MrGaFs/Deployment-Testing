@@ -57,9 +57,10 @@ workflows:
   udagram:
     jobs:
       - build:
-          Branch:
-            Only:
-              - main
+          filters:
+            branch:
+              only:
+                - main
 
       - deploy:
           requires:
