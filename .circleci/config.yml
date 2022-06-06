@@ -62,9 +62,9 @@ workflows:
               only:
                 - main
       - deploy:
-        filters:
-            branches:
-              only:
-                - main
+          filters:
+              branches:
+                only:
+                  - main
           requires:
             - build
