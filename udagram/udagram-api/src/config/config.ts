@@ -1,6 +1,3 @@
-import * as dotenv from "dotenv";
-dotenv.config();
-
 // ENV variables 
 // - AWS_ACCESS_KEY_ID
 // - AWS_SECRET_ACCESS_KEY
