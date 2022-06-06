@@ -2,6 +2,12 @@
 
 In this project you will learn how to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers. You will use the aws console to start and configure the services the application needs such as a database to store product information and a web server allowing the site to be discovered by potential customers. You will modify your package.json scripts and replace hard coded secrets with environment variables in your code.
 
+## The Hosting Links
+
+[API](http://udagram-backend-env.eba-3q2zgrnn.us-east-1.elasticbeanstalk.com)
+
+[FrontEnd](http://udagram-buck.s3-website-us-east-1.amazonaws.com/)
+
 ## Udagram
 
 This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
