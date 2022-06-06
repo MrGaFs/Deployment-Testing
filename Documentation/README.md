@@ -6,16 +6,18 @@ The Dependencies is located in the `Deployment-Testing/Documentation/Docs/Depend
 
 [Dependencies](Docs/Dependencies.md)
 
-## PipeLine Architecture
+## Infrastructure
 
-I'm using
+The Infrastructure is located in the `Deployment-Testing/Documentation/Docs/Infrastructure.md` file.
 
-- GitHub as a sourcecode repository
-- CircleCI as a continuous integration pipeline
+[Infrastructure](Docs/Infrastructure.md)
 
-![PipeLine Proccess](Digrams/PipeLineDesign.png)
+## Pipeline
 
-## Required ScreenShots
+The Pipeline proccess is located in the `Deployment-Testing/Documentation/Docs/PipeLineProccess.md` file.
+
+[PipeLineProccess](PipeLineProccess.md)
+
 
 [NOTE]: All The required ScreenShots is Provided in the `Deployment-Testing/Documentation/Docs/Screenshotsd` file.
 
