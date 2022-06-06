@@ -8,8 +8,8 @@ export const config = {
   username: `${process.env.POSTGRES_USERNAME}`,
   password: process.env.POSTGRES_PASSWORD,
   database: process.env.POSTGRES_DB,
-  dbPort: Number(process.env.POSTGRES_PORT),
-  port: Number(process.env.PORT),
+  dbPort: parseInt(process.env.POSTGRES_PORT),
+  port: parseInt(process.env.PORT),
   host: process.env.POSTGRES_HOST,
   dialect: "postgres",
   aws_region: process.env.AWS_REGION,
@@ -20,5 +20,3 @@ export const config = {
     secret: process.env.JWT_SECRET,
   },
 };
-
-console.error(config)
