@@ -16,7 +16,7 @@ The Infrastructure is located in the `Deployment-Testing/Documentation/Docs/Infr
 
 The Pipeline proccess is located in the `Deployment-Testing/Documentation/Docs/PipeLineProccess.md` file.
 
-[PipeLineProccess](PipeLineProccess.md)
+[PipeLineProccess](Docs/PipeLineProccess.md)
 
 
 [NOTE]: All The required ScreenShots is Provided in the `Deployment-Testing/Documentation/Docs/Screenshotsd` file.
