@@ -6,16 +6,6 @@ The Dependencies is located in the `Deployment-Testing/Documentation/Docs/Depend
 
 [Dependencies](Docs/Dependencies.md)
 
-## System Architecture
-
-I'm using
-
-- AWS Elastic Beanstalk (Nodejs)
-- AWS RDS (Postgres)
-- AWS S3 (S3)
-
-![System Architecture](Digrams/SystemDesign.png)
-
 ## PipeLine Architecture
 
 I'm using
@@ -23,7 +13,7 @@ I'm using
 - GitHub as a sourcecode repository
 - CircleCI as a continuous integration pipeline
 
-![PipeLine Architecture](Digrams/PipeLineDesign.png)
+![PipeLine Proccess](Digrams/PipeLineDesign.png)
 
 ## Required ScreenShots
 
@@ -33,4 +23,4 @@ I'm using
 
 -[GitHub Repository](https://github.com/MrGaFs/Deployment-Testing)
 -[CircleCI](https://circleci.com/gh/MrGaFs/Deployment-Testing)
--[FrontEnd](https://github.com/MrGaFs/Deployment-Testing)
+-[FrontEnd](http://udagram-buck.s3-website-us-east-1.amazonaws.com/)
