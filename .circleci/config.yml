@@ -4,37 +4,37 @@ orbs:
   eb: circleci/aws-elastic-beanstalk@2.0.1
   aws-cli: circleci/aws-cli@3.1.1
 jobs:
-// The Build Job That will build the project
+#The Build Job That will build the project
   build:
-  // The docker container that will be used to build the project
+  # The docker container that will be used to build the project
     docker:
       - image: "cimg/node:14.15"
-      // The commands that will be run in the container
+      # The commands that will be run in the container
     steps:
       - node/install:
           node-version: '14.15'
       - checkout
-      //Frontend Dependencies Install
+      # Frontend Dependencies Install
       - run:
           name: Install Front-End Dependencies
           command: npm run frontend:install
-      //API Dependencies Install
+      # API Dependencies Install
       - run:
           name: Install API Dependencies
           command: npm run api:install
-      //Frontend Linting
+      # Frontend Linting
       - run:
           name: Front-End Lint
           command: npm run frontend:lint
-      //Frontend Building
+      # Frontend Building
       - run:
           name: Front-End Build
           command: npm run frontend:build
-      //API Building
+      # API Building
       - run:
           name: API Build
           command: npm run api:build
-  // The Deploy Job That will deploy the project
+  #  The Deploy Job That will deploy the project
   deploy:
     docker:
       - image: "cimg/base:stable"
@@ -44,11 +44,11 @@ jobs:
       - eb/setup
       - aws-cli/setup
       - checkout
-      //Frontend Deployment
+      # Frontend Deployment
       - run:
           name: Deploy Font-end
           command: npm run frontend:deploy
-      //API Deployment
+      # API Deployment
       - run:
           name: Deploy API
           command: npm run api:deploy
